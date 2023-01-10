@@ -1,0 +1,28 @@
+{
+    "name": "Companion",
+    "description": "Standalone uppy companion",
+    "keywords": ["uppy", "companion", "files", "uploader"],
+    "repository": "https://github.com/Ju99ernaut/uppy-companion",
+    "env": {
+        "COMPANION_SECRET": {
+            "description": "any long set of random characters for the server session",
+            "generator": "secret"
+        },
+        "COMPANION_DATADIR": {
+            "description": "correspondes to the filePath option",
+            "value": "/tmp"
+        },
+        "COMPANION_CLIENT_ORIGINS": {
+            "description": "whitelist domains that can use companion(comma separated)",
+            "value": ""
+        },
+        "COMPANION_PROTOCOL": {
+            "description": "translates to the server.protocol option, eg http|https",
+            "value": "https"
+        },
+        "COMPANION_DOMAIN": {
+            "description": "translates to the server.host option, which is the domain for your server, eg appname.heroku.com",
+            "value": "companion.queue.ngrok.io"
+        }
+    }
+}

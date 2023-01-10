@@ -1,0 +1,10 @@
+{
+    "name": "uppy-companion",
+    "version": "1.0.2",
+    "scripts": {
+        "start": "companion"
+    },
+    "dependencies": {
+        "@uppy/companion": "^3.2.0"
+    }
+}
