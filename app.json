@@ -10,7 +10,7 @@
         },
         "COMPANION_DATADIR": {
             "description": "correspondes to the filePath option",
-            "value": "/tmp"
+            "value": "/output"
         },
         "COMPANION_CLIENT_ORIGINS": {
             "description": "whitelist domains that can use companion(comma separated)",
@@ -22,7 +22,7 @@
         },
         "COMPANION_DOMAIN": {
             "description": "translates to the server.host option, which is the domain for your server, eg appname.heroku.com",
-            "value": "companion.queue.ngrok.io"
+            "value": "monkfish-app.ondigitalocean.app "
         }
     }
 }
